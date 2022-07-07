@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: bisque;
+    font-size: 23px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; 
+}
+.links{
+    text-decoration: none;
+    cursor: grabbing;
+}
+#name{
+    color: rgb(224, 141, 162);
+    font-size: 40px;
+    padding-right: 450px;
+}
+#para{
+    font-size: 25px;
+}
+#border
+{
+    border: 3px solid rgb(28, 21, 121);
+}
+#photo{
+    height: 250px;
+    width: 230px;
+    border-radius: 100px;
+}
